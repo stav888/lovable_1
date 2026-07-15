@@ -21,15 +21,31 @@ export function Footer() {
           </div>
 
           <div className="flex items-center gap-6 text-xs text-muted-foreground">
-            <a href="#" className="link-underline hover:text-ivory">Privacy</a>
-            <a href="#" className="link-underline hover:text-ivory">Terms</a>
-            <a href="#" className="link-underline hover:text-ivory">Ethics</a>
+            <a href="/privacy" className="link-underline hover:text-ivory">מדיניות פרטיות</a>
+            <a href="/accessibility" className="link-underline hover:text-ivory">הצהרת נגישות</a>
+            <a href="/" className="link-underline hover:text-ivory">Terms</a>
           </div>
 
           <div className="text-[10px] tracking-[0.25em] text-muted-foreground">
             © {new Date().getFullYear()} · ALL RIGHTS RESERVED
           </div>
         </div>
+      </div>
+      <div id="bcb" className="mx-auto max-w-7xl mt-6 rounded-lg bg-emerald-900/5 p-4 text-sm text-muted-foreground">
+        <p>
+          כדי להציע לך חווית גלישה טובה יותר, אתר זה משתמש בעוגיות פרופיל, לרבות מצד ג'. על ידי המשך גלישה באתר שלנו אתה מקבל את מדיניות העוגיות שלנו. לפרטים נוספים
+          <a href="/privacy" className="ml-1 link-underline">לחצו</a>
+        </p>
+        <div className="mt-2">
+          <button id="bcb-approve" type="button" aria-label="Approve cookies notice" className="rounded bg-gold px-3 py-1 text-obsidian">
+            אישור
+          </button>
+        </div>
+        <noscript>
+          <a href="/?bcb_approve=1" className="bcb-approve-link">
+            אישור
+          </a>
+        </noscript>
       </div>
     </footer>
   );
