@@ -3,7 +3,7 @@ import { ArrowLeft, Sparkles } from "lucide-react";
 import { Particles } from "./Particles";
 import { MagneticButton } from "./MagneticButton";
 
-const words = ["משפט.", "טכנולוגיה.", "העתיד."];
+const words = ["משרד עורך דיו עתידני"];
 
 export function Hero({ onOpenWizard }: { onOpenWizard: () => void }) {
   return (

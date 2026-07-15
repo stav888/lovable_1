@@ -16,7 +16,7 @@ A single, cinematic RTL landing page at `/` with an obsidian + gold + royal-indi
 ## Sections (single-page, all in `src/routes/index.tsx` composing components)
 
 1. **Floating glass nav** — `YBA · יוסף בן עמי` wordmark, RTL links (בית, תחומי עמחיות, תהליך, המלצות, צור קשר), gold-underline hover, glowing "קבע פגישת ייעוץ" CTA
-2. **Hero** — Full-viewport. Radial gold + indigo ambient glows, animated gold-dust particles canvas layer, slow horizontal light sweep. Headline `משפט. טכנולוגיה. העתיד.` with staggered word slide-up (Framer Motion). English sub `Architecting Next-Generation Legal Solutions`. Magnetic gold CTA + secondary ghost CTA. Multi-step consultation wizard trigger opens a glass dialog (3 steps: תחום → פרטים → אישור)
+2. **Hero** — Full-viewport. Radial gold + indigo ambient glows, animated gold-dust particles canvas layer, slow horizontal light sweep. Headline `משרד עורך דיו עתידני` with staggered word slide-up (Framer Motion). English sub `Architecting Next-Generation Legal Solutions`. Magnetic gold CTA + secondary ghost CTA. Multi-step consultation wizard trigger opens a glass dialog (3 steps: תחום → פרטים → אישור)
 3. **Bento grid — Areas of Expertise** — 4 asymmetric cards (Corporate, High-Tech & IP, Real Estate, Litigation). Cursor-tracked spotlight + subtle 3D tilt on hover. Lucide icons (Building2, Cpu, Home, Scale) in gold
 4. **The Path to Victory** — Vertical scroll timeline with 3 nodes (אסטרטגיה · פעולה · הכרעה). Nodes light up with gold glow via `useScroll` progress
 5. **Credibility Hub** — Animated counters (in-view trigger): 500+ תיקים, 20 שנות ניסיון, 98% הצלחה, 350+ לקוחות

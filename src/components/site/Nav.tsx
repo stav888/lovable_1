@@ -9,6 +9,8 @@ const links = [
   { href: "#process", label: "תהליך" },
   { href: "#testimonials", label: "המלצות" },
   { href: "#contact", label: "צור קשר" },
+  { href: "/privacy", label: "מדיניות פרטיות" },
+  { href: "/accessibility", label: "הצהרת נגישות" },
 ];
 
 export function Nav() {
